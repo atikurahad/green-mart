@@ -1,0 +1,9 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns:  1fr 1fr  1fr 1fr  1fr ;
+}
