@@ -7,3 +7,7 @@
     gap: 2rem;
     grid-template-columns:  1fr 1fr  1fr 1fr  1fr ;
 }
+i{
+    color: red;
+    font-size: 2rem;
+}
