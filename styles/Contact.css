@@ -19,9 +19,14 @@ i{
  
 }
 .item{
-    height: 200px;
-    width: 200px;
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    width: 250px;
+    box-shadow: white;
     border: 2px solid rgb(11, 47, 11);
+    border-radius: 18px;
+    padding: 8px;
 }
 
 .card
