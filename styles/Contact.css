@@ -11,3 +11,23 @@ i{
     color: tomato;
     font-size: 2rem;
 }
+.card{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns:  1fr 1fr  1fr 1fr ;
+    justify-items: center;
+ 
+}
+.item{
+    height: 200px;
+    width: 200px;
+    border: 2px solid rgb(11, 47, 11);
+}
+
+.card
+ i {
+   color: green;
+   font-size: 3rem;
+   margin-left: auto;
+   margin-right: auto;
+}
