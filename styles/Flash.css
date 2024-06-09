@@ -1,6 +1,7 @@
 .custom-card{
     border: 2px solid black;
    background-color: gray;
+   
 }
 .card-title{
     text-align: center;
@@ -10,4 +11,23 @@
 }
 .card-img{
     object-fit: cover;
+}
+.card-container{
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   align-items: center;
+}
+p{
+    color: gold;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    background-color: black;
+    padding: 8px;
+    margin: 12px;
+    color: yellow;
 }
